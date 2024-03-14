@@ -1,74 +1,32 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# HTML only page
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+_Português Pt-Br_
 
-Além de outros recursos falados nas aulas!
+Olá, essa página foi elaborada utilizando somente HTML5 e só um pouquinho de CSS (para organização). A idéia da página, consiste em uma página sobre uma clínica fictícia, onde é possivel ver informações sobre a clínica, horários de atendimentos, e um formulario para entrar em contato com a clínica. Neste proejto foram aplicados conceitos de tags semanticas, criação de tabelas e formulários usando tags semanticas visando ter um código HTML bem estruturado e de fácil entendimento.
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+*Recursos e Funcionalidades Principais:*
 
-Abaixo como cada página deve ser criada e estruturada.
-
-### Estrutura das páginas
-
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
-
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
-
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
-
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
+1. `Navegabilidade entre as páginas` O usuário pode ser facilmente navegar pelo site utilizado o menu lateral.
 
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+_Inglish En_
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+Hello, this page was created using only HTML5 and just a little bit of CSS (for organization). The idea of ​​the page consists of a page about a fictitious clinic, where it is possible to see information about the clinic, opening hours, and a form to contact the clinic. In this project, concepts of semantic tags were applied, creating tables and forms using semantic tags in order to have a well-structured and easy-to-understand HTML code.
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+*Key Features and Functionality:*
 
-Bora pra cima!
+1. `Navigability between pages` The user can easily navigate through the website using the side menu.
+
+## Conceitos Importantes / Important Concepts
+
+- Tags HTML
+- Form
+- Table
+- Semantic HTML
+- Iframe
+
+### Tecnologias / technologies
+
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)

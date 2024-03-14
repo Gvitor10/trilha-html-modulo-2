@@ -20,19 +20,145 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:#026323;
     padding: 10px 20px 0px;
+
+    border-right: 5px solid #004417;
 }
+
+.menu > ul {
+    list-style: square;
+}
+
+.menu > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+.menu > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    max-height: 150px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    border-bottom: 5px solid #004417;
 }
+
+.header > img {
+    width: 100%;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+.header > span {
+    width: auto;
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 900;
+    
+    color: white;
+
+    position: fixed;
+    z-index: 2;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+.content > h3 {
+    font-family: Helvetica;
+}
+
+.content > p {
+    font-family: Helvetica;
+    font-weight: 200;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #009332;
     min-height: 150px;
+}
+
+.footer > fieldset {
+    height: 80%;
+    width: 96%;
+
+    font-family: Helvetica;
+    font-weight: 700;
+
+    color: #FFFFFF;
+}
+
+.footer > fieldset > address > p {
+    width: 50%;
+
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* table */
+
+th {
+    font-family: Helvetica;
+    
+    color: #FFFFFF;
+    background-color: #026323;
+}
+
+td {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+table > tbody > tr:nth-child(even) {
+    background-color: #83AF91;
+}
+
+/* form... */
+
+.content > form > fieldset {
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Helvetica;
+
+    border-color: #026323;
+}
+
+.content > form > fieldset > legend {
+    font-weight: 900;
+}
+
+.content > fieldset {
+    display: flex;
+    gap: 1rem;
+
+    font-family: Helvetica;
+    font-size: 14px;
+
+    border-color: #026323;
+}
+
+.content > fieldset > legend {
+    font-weight: 900;
 }
